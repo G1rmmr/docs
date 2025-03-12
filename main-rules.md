@@ -42,9 +42,7 @@ BackBuffer.cpp
 * UPPER_SNAKE_CASE : 상수
 * 접두사, 접미사 사용 안함
 
-```
-// e.g.
-
+```cpp
 const int CONSTANT;
 int GlobalVal;
 
@@ -89,13 +87,12 @@ int foo() {
 * 한 줄 조건 / 반복문 : 중괄호 사용 X -> 같은 줄에 위치
 * 한 줄 함수 : 한 줄에 위치
 * 최대 길이 : 120자
-```
-// e.g.
 
-//
-// @class Class
-// @brief Counting number
-// 
+```cpp
+/*
+@class Class
+@brief Counting number
+*/ 
 class Class {
 public:
     int GetEvenCount(int val) {
@@ -115,3 +112,9 @@ public:
     }
 };
 ```
+---
+
+## 3. Paradigm
+* 라이브러리에서 자료형 제공시, 그것 사용하기 (e.g. GLfloat, XMFLOAT3)
+* 쓸데없는 NULL 체크 금지
+* SOLID 원칙만큼은 확실히 지키기
