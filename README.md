@@ -3,4 +3,6 @@
 ## Code Styles
 
 ### [Main Style Guide](main-rules.md)
-### [Cpp reference]()
+
+## Manuals
+### [Cpp reference](http://cppreference.com)
