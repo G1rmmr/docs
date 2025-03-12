@@ -1,2 +1,6 @@
 # Docs for my code life!
-## [Main Style Guide](main-rules.md)
+
+## Code Styles
+
+### [Main Style Guide](main-rules.md)
+### [Cpp reference]()
