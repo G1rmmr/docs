@@ -87,6 +87,8 @@ int foo() {
 * 한 줄 조건 / 반복문 : 중괄호 사용 X -> 같은 줄에 위치
 * 한 줄 함수 : 한 줄에 위치
 * 최대 길이 : 120자
+* 타입 추론 지양 (e.g. var, auto, python auto map...)
+* 단, 정말정말 긴 타입의 이름(특히 C++ 반복자) 때문에 120자가 넘어가면 사용
 
 ```cpp
 /*
@@ -99,6 +101,8 @@ public:
         if(val < 0) return 0;
 
         int count = 0;
+
+        // auto count = 0;
 
         while(val >= 0) {
             val /= 2;
