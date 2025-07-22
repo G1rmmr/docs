@@ -6,4 +6,4 @@
 
 ## Manuals
 1. ### [Cpp reference](http://cppreference.com)
-2. ### [Graphic Theory]()
+2. ### [Graphics Theory]()
