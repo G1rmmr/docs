@@ -5,4 +5,5 @@
 ### [Main Style Guide](main-rules.md)
 
 ## Manuals
-### [Cpp reference](http://cppreference.com)
+1. ### [Cpp reference](http://cppreference.com)
+2. ### [Graphic Theory]()
