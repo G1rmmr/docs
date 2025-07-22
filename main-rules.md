@@ -69,8 +69,7 @@ int foo() {
 ### Coding rules
 
 #### Spaces
-* O : 조건 / 반복문 괄호 앞
-* X : 연산자 앞 뒤, 중괄호 앞
+* X : 조건 / 반복문 괄호 앞 뒤, 연산자 앞 뒤, 중괄호 앞
 
 #### Indentation
 * Size : 4 spaces (tab X)
